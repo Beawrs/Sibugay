@@ -1,0 +1,143 @@
+body {
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background-color: #fcd116;  
+    border-bottom: 5px solid #0038a8;
+    border: 2px solid #000;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 120px;
+    height: 80px;
+}
+
+header .title {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    color: black; 
+}
+
+/* NAVIGATION */
+.nav {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav a, .dropbtn {
+    text-decoration: none;
+    color: #0038a8;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 12px;
+}
+
+.nav a:hover, .dropbtn:hover {
+    color: #ce1126;
+}
+
+/* DROPDOWN */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    text-align: left;
+    padding: 8px 12px;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* COLORS */
+.blue  { color: #0038a8; } /* Royal Blue */
+.red   { color: #ce1126; } /* Scarlet Red */
+.gold  { color: #fcd116; } /* Sun Yellow */
+.green { color: #006847; }
+
+/* CONTENT */
+.content {
+    text-align: justify;
+    max-width: 1200px;
+    margin: auto;
+    column-gap: 40px;
+}
+
+/* FOOTER */
+.main-footer {
+    background-color: #0038a8;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-top: 8px solid #fcd116;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-col {
+    margin: 10px;
+    min-width: 200px;
+    width: 150px;
+    background: none;
+    color: #fcd116; 
+}
+
+.footer-col h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col .phone {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.socials i {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
