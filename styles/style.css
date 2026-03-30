@@ -4,7 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* HEADER */
+
 header {
     position: relative;
     background-color: #fcd116;  
@@ -31,7 +31,7 @@ header .title {
     color: black; 
 }
 
-/* NAVIGATION */
+
 .nav {
     margin: 20px auto;
     text-align: center;
@@ -49,7 +49,7 @@ header .title {
     color: #ce1126;
 }
 
-/* DROPDOWN */
+
 .dropdown {
     display: inline-block;
     position: relative;
@@ -81,13 +81,13 @@ header .title {
     display: block;
 }
 
-/* COLORS */
-.blue  { color: #0038a8; } /* Royal Blue */
-.red   { color: #ce1126; } /* Scarlet Red */
-.gold  { color: #fcd116; } /* Sun Yellow */
+
+.blue  { color: #0038a8; }
+.red   { color: #ce1126; }
+.gold  { color: #fcd116; } 
 .green { color: #006847; }
 
-/* CONTENT */
+
 .content {
     text-align: justify;
     max-width: 1200px;
@@ -95,7 +95,7 @@ header .title {
     column-gap: 40px;
 }
 
-/* FOOTER */
+
 .main-footer {
     background-color: #0038a8;
     color: white;
